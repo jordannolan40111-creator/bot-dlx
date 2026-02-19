@@ -65,4 +65,5 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send("DLX BOT OK 🟢")
 
-bot.run(os.getenv("TOKEN")
+
+bot.run(os.getenv("TOKEN"))
